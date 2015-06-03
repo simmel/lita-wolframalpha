@@ -1,6 +1,6 @@
 # lita-wolframalpha
 
-TODO: Add a description of the plugin.
+Query WolframAlpha®s computational knowledge engine™
 
 ## Installation
 
@@ -12,8 +12,15 @@ gem "lita-wolframalpha"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+### Required attributes
+
+* `appid` (String) - Your API key for WolframAlpha, get it at http://products.wolframalpha.com/api/
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+### `wa` or `wolframalpha`
+
+```
+You: wolframalpha director of movie pi
+Lita: Darren Aronofsky
+```

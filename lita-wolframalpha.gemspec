@@ -1,12 +1,12 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-wolframalpha"
-  spec.version       = "0.1.0"
+  spec.version       = "1.0.0"
   spec.authors       = ["Simon Lundström"]
-  spec.email         = ["simlu@su.se"]
-  spec.description   = "TODO: Add a description"
-  spec.summary       = "TODO: Add a summary"
-  spec.homepage      = "TODO: Add a homepage"
-  spec.license       = "TODO: Add a license"
+  spec.email         = ["simmel@soy.se"]
+  spec.description   = "Query WolframAlpha®s computational knowledge engine™"
+  spec.summary       = "Query WolframAlpha®s computational knowledge engine™"
+  spec.homepage      = "https://github.com/simmel/lita-wolframalpha"
+  spec.license       = "ISC license"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)

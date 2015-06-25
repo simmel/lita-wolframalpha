@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-wolframalpha"
-  spec.version       = "1.0.0"
+  spec.version       = "2.0.0"
   spec.authors       = ["Simon Lundström"]
   spec.email         = ["simmel@soy.se"]
   spec.description   = "Query WolframAlpha®s computational knowledge engine™"

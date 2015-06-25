@@ -9,7 +9,10 @@ module Lita
       # An WolframAlpha API key
       config :appid
 
-      route(/^w(?:olfram)?a(?:lpha)?\s+(.+)/, :wolframalpha, help: { "(wa|wolframalpha) the query to run" => "Query the WolframAlpha® computational knowledge engine™" })
+      route(/^w(?:olfram)?a(?:lpha)?\s+(.+)/, :wolframalpha,
+            command: true,
+            help: { "(wa|wolframalpha) the query to run" => "Query the WolframAlpha® computational knowledge engine™" }
+           )
 
       def wolframalpha(response)
         question = response.match_data.captures.join

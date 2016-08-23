@@ -27,7 +27,6 @@ module Lita
           answer = doc.css("pod[@id='Result'] plaintext").first.text
         rescue => e
           log.debug e
-          raise e
           answer = "Couldn't get a clear answer, see: http://www.wolframalpha.com/input/?i=#{query}"
         end
         response.reply(answer)

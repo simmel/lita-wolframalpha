@@ -7,7 +7,7 @@ module Lita
   module Handlers
     class Wolframalpha < Handler
       # An WolframAlpha API key
-      config :appid
+      config :appid, required: true
 
       route(/^w(?:olfram)?a(?:lpha)?\s+(.+)/, :wolframalpha,
             command: true,
